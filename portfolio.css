@@ -1,1 +1,56 @@
 
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.hero-image {
+  background-image: url("http://www.wallpapersbrowse.com/images/iy/iywrdrm.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  
+}
+
+
+header, footer {
+    color: white;
+    text-align: center;
+}
+article {
+    margin-left: 10%;
+  
+    overflow: hidden;
+}
+
+div.transbox {
+  margin-top: 1%;
+  background-color: black;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+
+}
+div.transbox h1 {
+ Margin-top: 5%;
+ color: white;
+text-align: center;
+}
+div.transbox p {
+ 
+ color: white;
+text-align: center;
+
+}
