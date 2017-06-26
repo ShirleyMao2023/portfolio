@@ -1,12 +1,18 @@
-
 body, html {
-    height: 100%;
-    margin: 0;
+	height: 100%;
+	margin: 0;
+	color:white;
+	}
+background {
+	background: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-2.jpg"); 
+opacity: 0.5;
+
+
 }
 
 .hero-image {
   background-image: url("http://www.wallpapersbrowse.com/images/iy/iywrdrm.jpg");
-  height: 50%;
+  height: 24%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,7 +45,7 @@ div.transbox {
   margin-top: 1%;
   background-color: black;
   border: 1px solid black;
-  opacity: 0.6;
+  opacity: 0.5;
   filter: alpha(opacity=60);
 
 }
