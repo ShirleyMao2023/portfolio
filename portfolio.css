@@ -1,14 +1,25 @@
 body, html {
 	height: 100%;
 	margin: 0;
-	color:white;
+	color: black;
 	}
 
 .background {
 	background: black;
 	opacity: 0.5;
 }
+.myimage{
+	width: 5%;
+	height: 5%;
 
+}
+.color{
+	background-image: url("http://crossbar.ch/wordpress/wp-content/uploads/2015/07/Backgrounds_Wallpaper_with_ornament_035516_.jpg");
+	background-size: contain;
+	width:100%;
+	height: 100%;
+
+}
 .hero-image {
   background-image: url("http://www.wallpapersbrowse.com/images/iy/iywrdrm.jpg");
   height: 24%;
@@ -35,14 +46,14 @@ header, footer {
     margin-left: 10%;
 		margin-right: 10%;
 		text-align: left;
-		background: black;
+		background: pink;
 		opacity: 0.9;
     overflow: hidden;
 		padding-left: 4%;
 		padding-right: 4%;
 		padding-bottom: 2%;
 		border:10px;
-		border-color: pink;
+		border-color: #E53AA2;
 		border-style: double;
 }
 
@@ -70,4 +81,5 @@ text-align: center;
 	color: purple;
 	text-align: center;
 }
+
 https://www.youtube.com/watch?v=PN1iMaVfzfQ
