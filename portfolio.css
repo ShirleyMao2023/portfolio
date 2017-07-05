@@ -4,10 +4,10 @@ body, html {
 	color:white;
 	}
 
-/*background {
+.background {
 	background: black;
 	opacity: 0.5;
-}*/
+}
 
 .hero-image {
   background-image: url("http://www.wallpapersbrowse.com/images/iy/iywrdrm.jpg");
@@ -23,10 +23,27 @@ header, footer {
     text-align: center;
 }
 
-article {
+/*article {
     margin-left: 10%;
-
+		margin-right: 10%;
+		background: black;
+		opacity: 0.9;
     overflow: hidden;
+}*/
+
+.bio {
+    margin-left: 10%;
+		margin-right: 10%;
+		text-align: left;
+		background: black;
+		opacity: 0.9;
+    overflow: hidden;
+		padding-left: 4%;
+		padding-right: 4%;
+		padding-bottom: 2%;
+		border:10px;
+		border-color: pink;
+		border-style: double;
 }
 
 .transbox {
@@ -34,7 +51,9 @@ article {
 	width: 50%;
 	height:80%;
   background-color: lightblue;
-  border: 3px solid #4d79ff;
+	border:5px;
+	border-color: #4d79ff;
+	border-style: double;
   opacity: 0.85;
 	position: absolute;
 	left: 24%;
@@ -51,5 +70,4 @@ text-align: center;
 	color: purple;
 	text-align: center;
 }
-
 https://www.youtube.com/watch?v=PN1iMaVfzfQ
