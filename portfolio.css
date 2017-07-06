@@ -13,25 +13,27 @@ img.myimage{
 	height: 30%;
 	float: right;
   margin: 3% 2% 2% 2%;
-	border:5px;
+	border:1px;
 	border-color: black;
-	border-style: groove;
+	border-style: solid;
 
 }
 .color{
-	background-image: url("http://crossbar.ch/wordpress/wp-content/uploads/2015/07/Backgrounds_Wallpaper_with_ornament_035516_.jpg");
-	background-size: contain;
+	background-image: url("http://img11.deviantart.net/41b1/i/2013/088/2/d/blue_abstract_pixel_wallpaper_by_connyduck-d5zodst.jpg");
+	background-size: cover;
 	width:100%;
 	height: 100%;
 
 }
 .hero-image {
   background-image: url("http://www.wallpapersbrowse.com/images/iy/iywrdrm.jpg");
-  height: 24%;
+  height: 25%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+	padding-top: 2.5%;
+
 }
 
 header, footer {
@@ -51,29 +53,29 @@ header, footer {
     margin-left: 10%;
 		margin-right: 10%;
 		text-align: left;
-		background: pink;
+		background: #e6e6ff;
 		opacity: 0.9;
     overflow: hidden;
 		padding-left: 4%;
 		padding-right: 4%;
 		padding-bottom: 2%;
 		border:10px;
-		border-color: #E53AA2;
+		border-color: #660066;
 		border-style: double;
 }
 
 .transbox {
 	margin: auto;
 	width: 50%;
-	height:80%;
+	height: 65%;
   background-color: lightblue;
-	border:5px;
+	border:10px;
 	border-color: #4d79ff;
-	border-style: double;
+	border-style: groove;
   opacity: 0.85;
 	position: absolute;
 	left: 24%;
-  bottom: 0;
+
 }
 
 .transbox h1 {
@@ -87,5 +89,71 @@ text-align: center;
 	text-align: center;
 }
 
+ul.main {
+    list-style-type: none;
+    margin: 0;
+    padding: 0% 4% 0% 10%;
+    overflow: hidden;
+    background-color: #007399;
+}
 
-https://www.youtube.com/watch?v=PN1iMaVfzfQ
+li {
+    float: left;
+		width: 9%;
+
+}
+
+li a.aboutMe{
+	width:71%;
+
+}
+
+li a.active{
+	color: white;
+	background-color: #ff668c;
+	color: white;
+	width:71%;
+}
+
+li a, .dropbtn {
+		width:71%;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #004d66;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width:10%;
+		height: auto;
+    box-shadow: 0% 1% 2% 0% rgba(0,0,0,9);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+		width:80%;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
