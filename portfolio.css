@@ -10,7 +10,7 @@ body, html {
 }
 img.myimage{
 	width: 30%;
-	height: 30%;
+	height: 30vw;
 	float: right;
   margin: 3% 2% 2% 2%;
 	border:1px;
@@ -27,7 +27,7 @@ img.myimage{
 }
 .hero-image {
   background-image: url("http://www.wallpapersbrowse.com/images/iy/iywrdrm.jpg");
-  height: 25%;
+  height: 10vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,8 +66,8 @@ header, footer {
 
 .transbox {
 	margin: auto;
-	width: 50%;
-	height: 65%;
+	width: 50vw;
+	height: 8vw;
   background-color: lightblue;
 	border:10px;
 	border-color: #4d79ff;
@@ -79,14 +79,17 @@ header, footer {
 }
 
 .transbox h1 {
- Margin-top: 6%;
+ Margin:1vw;
  color: purple;
-text-align: center;
+ text-align: center;
+ font-size: 2.9vw;
 }
 
 .transbox p {
+	margin:0;
 	color: purple;
 	text-align: center;
+	font-size: 1.8vw;
 }
 
 ul,
@@ -110,13 +113,15 @@ ul.main {
   background-color: #007399;
   overflow: hidden;
   padding-left: 10%;
+	margin:0;
 }
 
-ul.main > li.abc > a {
+li a.curso {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
+		margin:0;
     text-decoration: none;
 }
 
@@ -176,6 +181,9 @@ ul.grupo-abc > li:hover > ul.sub-grupo-abc {
 li a.active{
 	color: white;
 	background-color: #ff668c;
-	color: white;
-	width:71%;
+	display: inline-block;
+	text-align: center;
+	padding: 14px 16px;
+	margin:0;
+	text-decoration: none;
 }
