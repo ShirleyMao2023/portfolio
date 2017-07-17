@@ -110,7 +110,7 @@ ul li a {
 }
 
 ul.main {
-  background-color: #007399;
+  background-color: #ff99c2;
   overflow: hidden;
   padding-left: 10%;
 	margin:0;
@@ -126,7 +126,7 @@ li a.curso {
 }
 
 ul.main > li.abc:hover {
-    background-color: #004d66;
+    background-color: #ff668c;
 }
 
 /* Grupo abc */
@@ -180,7 +180,7 @@ ul.grupo-abc > li:hover > ul.sub-grupo-abc {
 
 li a.active{
 	color: white;
-	background-color: #ff668c;
+	background-color: black;
 	display: inline-block;
 	text-align: center;
 	padding: 14px 16px;
